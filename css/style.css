@@ -75,10 +75,13 @@ h1 {
     display: none;
 }
 
+/* Al click col mouse il testo cambia colore */
 .card:active h3 {
     color: purple;
 }
 
+/* Appare il contenuto al passaggio del mouse e a 
+posizioni fisse scelte come quelle di classe "face-up" */
 .card:hover img, 
 .card:hover h3, 
 .face-up img, 
@@ -86,14 +89,15 @@ h1 {
     display: block;
 }
 
-
 /* Footer */
 footer {
     text-align: center;
-    margin: 30px;
+    margin: 45px auto 5px auto;
+    border-top: 2px solid black;
+    border-radius: 40px;
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 1px 1px white;
 }
