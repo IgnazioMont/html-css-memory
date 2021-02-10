@@ -19,7 +19,7 @@ body {
 /* Title */
 h1 {
     text-align: center;
-    text-shadow: 3px black;
+    text-shadow: 2px 2px black;
     font-size: 65px;
     color: white;
     padding-bottom: 20px;
@@ -60,6 +60,7 @@ h1 {
 .card h3 {
     font-size: 20px;
     color: orange;
+    text-shadow: 1px 1px black;
 }
 
 .face-up,
@@ -90,4 +91,5 @@ footer {
 
 h4 {
     font-size: 30px;
+    text-shadow: 1px 1px white;
 }
