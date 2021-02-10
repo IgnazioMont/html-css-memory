@@ -19,6 +19,7 @@ body {
 /* Title */
 h1 {
     text-align: center;
+    text-shadow: 3px black;
     font-size: 65px;
     color: white;
     padding-bottom: 20px;
@@ -40,18 +41,19 @@ h1 {
     overflow: hidden; 
     /* oppure "display: block" */
 
-    background-image: url("../img/pattern.png");
-    background-size: contain;
+    background-image: url("../img/boolean-logo.png");
+    background-size: 40px;
     background-color: white;
 }
 
  /* General img rules*/
 img {
+    display: block;
     width: 100%;
     /* Riempie lo spazio */
 }
 
-.card img, h3 {
+.card img, .title {
     display: none;
 }
 
@@ -70,6 +72,12 @@ img {
     display: block;
 }
 
+h3 {
+    display: inline-block;
+}
+
+
+/* Footer */
 footer {
     text-align: center;
     margin: 30px;
