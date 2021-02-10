@@ -75,6 +75,10 @@ h1 {
     display: none;
 }
 
+.card:active h3 {
+    color: purple;
+}
+
 .card:hover img, 
 .card:hover h3, 
 .face-up img, 
