@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -22,4 +22,59 @@ h1 {
     font-size: 65px;
     color: white;
     padding-bottom: 20px;
+}
+
+/* Rows */
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 15px;
+    width: 18%;
+    height: 180px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    overflow: hidden; 
+    /* oppure "display: block" */
+
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    background-color: white;
+}
+
+ /* General img rules*/
+img {
+    width: 100%;
+    /* Riempie lo spazio */
+}
+
+.card img, h3 {
+    display: none;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: orange;
+}
+
+.face-up-card,
+.card:hover {
+    /* Scompare tutto e si vede solo lo sfondo */
+    background-image: none;
+}
+
+.card:hover img {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}
+
+h4 {
+    font-size: 30px;
 }
