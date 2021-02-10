@@ -47,7 +47,7 @@ h1 {
 }
 
  /* General img rules*/
-img {
+.card img {
     display: block;
     width: 100%;
     /* Riempie lo spazio */
@@ -62,18 +62,23 @@ img {
     color: orange;
 }
 
-.face-up-card,
+.face-up,
 .card:hover {
-    /* Scompare tutto e si vede solo lo sfondo */
+    /*  Scompare tutto e si vede solo lo sfondo */
     background-image: none;
+    /*  Togliamo img di sfondo da face-up in modo fisso
+        e alle altre al passaggio del mouse */
 }
 
-.card:hover img {
+.card h3 {
+    display: none;
+}
+
+.card:hover img, 
+.card:hover h3, 
+.face-up img, 
+.face-up h3 {
     display: block;
-}
-
-h3 {
-    display: inline-block;
 }
 
 
